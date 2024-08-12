@@ -1,0 +1,33 @@
+{
+  "gitSyncId": "66b9ff60add2240ff8ab8cc4_1cb352bc-b3d3-4d19-ba6d-28d469a28444",
+  "id": "Ticket Management_fetchTicketsCount1",
+  "moduleUUID": "5d51cee0-8cdb-4fb8-8116-395db0cc7988",
+  "packageUUID": "cc76a457-faa9-407c-ab3e-12ba84262a14",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "agentId": "-1",
+      "status": ""
+    },
+    "moduleInputs": {
+      "gwzgoaftqa": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "gwzgoaftqa",
+        "label": "status",
+        "propertyName": "inputs.status"
+      },
+      "ufqkttqvkd": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "-1",
+        "id": "ufqkttqvkd",
+        "label": "agentId",
+        "propertyName": "inputs.agentId"
+      }
+    },
+    "name": "fetchTicketsCount1",
+    "pageId": "Ticket Management",
+    "version": "0.0.18"
+  }
+}
