@@ -1,0 +1,14 @@
+{
+  "gitSyncId": "66ba026badd2240ff8ab8dad_ac7dbfeb-36df-4161-9c97-37396e6be0b4",
+  "id": "Notifications__$fetchNotificationsSSR1$_fetchNotificationsSSR",
+  "isPublic": true,
+  "moduleInstanceId": "Notifications_fetchNotificationsSSR1",
+  "rootModuleInstanceId": "Notifications_fetchNotificationsSSR1",
+  "unpublishedCollection": {
+    "contextType": "PAGE",
+    "name": "_$fetchNotificationsSSR1$_fetchNotificationsSSR",
+    "pageId": "Notifications",
+    "pluginId": "js-plugin",
+    "pluginType": "JS"
+  }
+}

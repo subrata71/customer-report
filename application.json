@@ -24,6 +24,10 @@
     {
       "id": "Customers",
       "isDefault": false
+    },
+    {
+      "id": "Notifications",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
