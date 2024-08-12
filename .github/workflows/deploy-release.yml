@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest  # Run on Ubuntu
 
     steps:
-      - run: "curl --location --fail-early --request POST https://ee-4861.dp.appsmith.com/api/v1/git/deploy/app/66b9c735c93b9d1752e25086?branchName=release --header 'Authorization: Bearer 319ac03421a295f50a50afd436e43c2de0cc1f9aacc343031f7624454a424139947635e4bda3832e92b4d435819c0fb7a6492167fb5fac8138a33b028c42de06b600820f601a6a914bc67db585152d233ff6861c12b69b3c9e3575978e9b68db4f397c5610147f000eba869adcd4e7c9b8b1393d99d3818c1f3896bf63d395e7e5d9062df6ca7e3744c725478cf8c7d0c43c210047b1fbb1dcb57f59cdeb2458789e5296f4392759925f84496b881a1da06eda2994dfaedb2f5a11d6b69f4944bf41a56b58fd8143693ea0730924eaad8e1676d2c55cb6d2860b170020019fed'"
+      - run: "curl --location --fail-early --request POST https://ee-4861.dp.appsmith.com/api/v1/git/deploy/app/66b9c735c93b9d1752e25086?branchName=release --header 'Authorization: Bearer ${{ secrets.APPSMITH_CD_KEY }}'"
