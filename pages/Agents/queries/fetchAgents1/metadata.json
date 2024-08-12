@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "66b9ff60add2240ff8ab8cc4_70b23cfd-26ba-405b-abc1-f8124f8de1d4",
-  "id": "Ticket Management__$fetchTickets1$_fetchTickets",
+  "gitSyncId": "66ba1115add2240ff8ab95a9_ce79d4c8-9148-4286-a8e6-46095ba657ab",
+  "id": "Agents__$fetchAgents1$_fetchAgents",
   "isPublic": true,
-  "moduleInstanceId": "Ticket Management_fetchTickets1",
+  "moduleInstanceId": "Agents_fetchAgents1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
-  "rootModuleInstanceId": "Ticket Management_fetchTickets1",
+  "rootModuleInstanceId": "Agents_fetchAgents1",
   "unpublishedAction": {
     "confirmBeforeExecute": false,
     "contextType": "PAGE",
@@ -15,8 +15,8 @@
       "pluginId": "postgres-plugin"
     },
     "executeOnLoad": true,
-    "name": "_$fetchTickets1$_fetchTickets",
-    "pageId": "Ticket Management",
+    "name": "_$fetchAgents1$_fetchAgents",
+    "pageId": "Agents",
     "userSetOnLoad": false
   }
 }

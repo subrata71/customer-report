@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "66b9ff60add2240ff8ab8cc4_ee3d10e3-6ce6-43f0-9b20-332d631afa84",
+  "gitSyncId": "66ba1115add2240ff8ab95a9_04fb5613-57c4-4cdd-a054-af4917957dc4",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 980,
+          "bottomRow": 680,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 850,
+          "minHeight": 520,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 83,
+          "snapRows": 50,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 89,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Ticket Management",
-    "slug": "ticket-management"
+    "name": "Agents",
+    "slug": "agents"
   }
 }

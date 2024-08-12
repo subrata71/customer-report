@@ -6,11 +6,6 @@
   "type": "JS_MODULE",
   "unpublishedModuleInstance": {
     "contextType": "PAGE",
-    "dynamicBindingPathList": [
-      {
-        "key": "fetch"
-      }
-    ],
     "inputs": {
       "fetch": "[\"{{Table1.pageNo}}\",\"{{Table1.pageSize}}\"]"
     },
