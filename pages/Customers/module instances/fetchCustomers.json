@@ -36,6 +36,6 @@
     },
     "name": "fetchCustomers",
     "pageId": "Customers",
-    "version": "0.0.19"
+    "version": "0.0.24"
   }
 }

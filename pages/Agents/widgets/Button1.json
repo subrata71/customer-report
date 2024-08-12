@@ -31,7 +31,7 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "onClick": "{{fetchAgents1.run()}}",
+  "onClick": "{{fetchAgentManagement1.fetchAgentDetails();}}",
   "parentColumnSpace": 13,
   "parentId": "0",
   "parentRowSpace": 10,
