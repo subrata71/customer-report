@@ -28,6 +28,10 @@
     {
       "id": "Notifications",
       "isDefault": false
+    },
+    {
+      "id": "Agents",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
