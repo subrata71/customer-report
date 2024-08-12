@@ -1,0 +1,44 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 21,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "t5i3pk0qm3",
+  "leftColumn": 34,
+  "minWidth": 120,
+  "mobileBottomRow": 21,
+  "mobileLeftColumn": 34,
+  "mobileRightColumn": 50,
+  "mobileTopRow": 17,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 37.1875,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 50,
+  "text": "Submit",
+  "topRow": 17,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "component-zlj1mec6ha",
+  "widgetName": "CreateNotificationButton"
+}
