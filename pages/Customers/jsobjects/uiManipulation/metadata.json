@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66ba0e02add2240ff8ab941d_6458854d-515b-47a2-9f15-6342cdc973db",
+  "id": "Customers_uiManipulation",
+  "unpublishedCollection": {
+    "name": "uiManipulation",
+    "pageId": "Customers",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

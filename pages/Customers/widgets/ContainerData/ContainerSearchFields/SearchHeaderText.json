@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 4,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -14,14 +14,13 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1.875rem",
+  "fontSize": "1rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "rf17w1zskc",
+  "key": "cyrbacthz4",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
@@ -34,20 +33,20 @@
   "originalBottomRow": 5,
   "originalTopRow": 0,
   "overflow": "NONE",
-  "parentColumnSpace": 20.53125,
-  "parentId": "0",
+  "parentColumnSpace": 7.26953125,
+  "parentId": "9lyjuqn0lo",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 16,
+  "rightColumn": 40,
   "shouldTruncate": false,
-  "text": "Customers",
+  "text": "Search",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#3f3f46",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "component-ylsctr8ig5",
-  "widgetName": "TitleCustomers"
+  "widgetId": "component-idagjobsv2",
+  "widgetName": "SearchHeaderText"
 }
