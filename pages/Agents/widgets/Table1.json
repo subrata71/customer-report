@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 58,
+  "bottomRow": 50,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -40,8 +40,9 @@
   "columnUpdatedAt": 1723472271051,
   "columnWidthMap": {
     "email": 174,
+    "id": 129,
     "name": 130,
-    "specialization": 207
+    "specialization": 166
   },
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -82,6 +83,9 @@
     },
     {
       "key": "primaryColumns.customColumn1.boxShadow"
+    },
+    {
+      "key": "totalRecordsCount"
     }
   ],
   "dynamicPropertyPathList": [
@@ -95,6 +99,9 @@
     },
     {
       "key": "primaryColumns.customColumn1.onClick"
+    },
+    {
+      "key": "onPageChange"
     }
   ],
   "enableClientSideSearch": true,
@@ -107,7 +114,7 @@
   "isVisibleDownload": true,
   "isVisibleFilters": false,
   "isVisiblePagination": true,
-  "isVisibleSearch": true,
+  "isVisibleSearch": false,
   "key": "cqwwwscfwe",
   "label": "Data",
   "leftColumn": 0,
@@ -117,6 +124,7 @@
   "mobileRightColumn": 35,
   "mobileTopRow": 19,
   "needsErrorInfo": false,
+  "onPageChange": "{{fetchAgentManagement1.fetchAgentDetails();}}",
   "onRowSelected": "",
   "originalBottomRow": 55,
   "originalTopRow": 16,
@@ -215,7 +223,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "id",
+      "label": "Agent id",
       "notation": "standard",
       "originalId": "id",
       "sticky": "",
@@ -246,7 +254,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "name",
+      "label": "Agent name",
       "notation": "standard",
       "originalId": "name",
       "sticky": "",
@@ -292,10 +300,11 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
+  "serverSidePaginationEnabled": true,
   "tableData": "{{fetchAgentManagement1.fetchAgentDetails.data}}",
   "textSize": "0.875rem",
   "topRow": 17,
-  "totalRecordsCount": 0,
+  "totalRecordsCount": "{{fetchAgentManagement1.fetchAllAgentsCount.data}}",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",

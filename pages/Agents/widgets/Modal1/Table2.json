@@ -249,7 +249,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "title",
+      "label": "Issue description",
       "notation": "standard",
       "originalId": "title",
       "sticky": "",

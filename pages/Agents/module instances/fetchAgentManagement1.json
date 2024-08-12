@@ -16,9 +16,17 @@
     ],
     "inputs": {
       "fetchAgentDetails": "[\"{{searchName.text}}\",\"{{searchSpecialisation.text}}\",\"{{Table1.pageSize}}\",\"{{Table1.pageOffset}}\",\"{{searchId.text}}\"]",
-      "fetchAgentTickets": "[\"{{Table1.triggeredRow.id}}\"]"
+      "fetchAgentTickets": "[\"{{Table1.triggeredRow.id}}\"]",
+      "fetchAllAgentsCount": "[]"
     },
     "moduleInputs": {
+      "rawjyyfwdi": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "rawjyyfwdi",
+        "label": "fetchAllAgentsCount",
+        "propertyName": "inputs.fetchAllAgentsCount"
+      },
       "utnhkjedwm": {
         "controlType": "INPUT_TEXT",
         "defaultValue": "[]",
@@ -36,6 +44,6 @@
     },
     "name": "fetchAgentManagement1",
     "pageId": "Agents",
-    "version": "0.0.23"
+    "version": "0.0.24"
   }
 }
