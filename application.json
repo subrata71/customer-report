@@ -32,6 +32,10 @@
     {
       "id": "Agents",
       "isDefault": false
+    },
+    {
+      "id": "Tickets",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
