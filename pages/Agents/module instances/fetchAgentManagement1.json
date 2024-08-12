@@ -6,14 +6,6 @@
   "type": "JS_MODULE",
   "unpublishedModuleInstance": {
     "contextType": "PAGE",
-    "dynamicBindingPathList": [
-      {
-        "key": "fetchAgentTickets"
-      },
-      {
-        "key": "fetchAgentDetails"
-      }
-    ],
     "inputs": {
       "fetchAgentDetails": "[\"{{searchName.text}}\",\"{{searchSpecialisation.text}}\",\"{{Table1.pageSize}}\",\"{{Table1.pageOffset}}\",\"{{searchId.text}}\"]",
       "fetchAgentTickets": "[\"{{Table1.triggeredRow.id}}\"]",
