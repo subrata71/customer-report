@@ -6,20 +6,6 @@
   "type": "QUERY_MODULE",
   "unpublishedModuleInstance": {
     "contextType": "PAGE",
-    "dynamicBindingPathList": [
-      {
-        "key": "status"
-      },
-      {
-        "key": "agentId"
-      },
-      {
-        "key": "limit"
-      },
-      {
-        "key": "offset"
-      }
-    ],
     "inputs": {
       "agentId": "{{inp_agentId.text}}",
       "limit": "{{Table1.pageSize}}",
