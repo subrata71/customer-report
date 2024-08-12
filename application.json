@@ -22,6 +22,10 @@
       "isDefault": true
     },
     {
+      "id": "Customers",
+      "isDefault": false
+    },
+    {
       "id": "Notifications",
       "isDefault": false
     }
