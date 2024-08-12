@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 30,
+  "bottomRow": 43,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -22,18 +22,18 @@
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "miyfwjb73b",
+  "key": "9esrc1u9gf",
   "leftColumn": 22,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 27,
+  "mobileBottomRow": 40,
   "mobileLeftColumn": 22,
   "mobileRightColumn": 38,
-  "mobileTopRow": 23,
+  "mobileTopRow": 36,
   "needsErrorInfo": false,
-  "originalBottomRow": 30,
-  "originalTopRow": 23,
+  "originalBottomRow": 40,
+  "originalTopRow": 36,
   "overflow": "NONE",
   "parentColumnSpace": 11.84375,
   "parentId": "0",
@@ -45,10 +45,10 @@
   "text": "Hello {{appsmith.user.name || appsmith.user.email}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 23,
+  "topRow": 36,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "component-ufuankv7ij",
-  "widgetName": "Text1"
+  "widgetId": "component-g0x542lvuq",
+  "widgetName": "Text2"
 }
