@@ -1,0 +1,13 @@
+name: customer-report-master-cd  # Workflow name
+
+on:
+  push:
+    branches:
+      - master  # Trigger on push to master branch
+
+jobs:
+  deploy-appsmith:
+    runs-on: ubuntu-latest  # Run on Ubuntu
+
+    steps:
+      - run: "curl --location --fail-early --request POST https://ee-4861.dp.appsmith.com/api/v1/git/deploy/app/66ba0b81add2240ff8ab92b2?branchName=master --header 'Authorization: Bearer b5e537b0ce8b313a8b0d870f09a1f50b5c1ff36e53fdfe9a689530a0708ef316a373c1c6983679ed979559368414a825b9a309bb1582e47307380102d5e5622a9ff70787fbcff1a03e742584d0645c49625cc01f0ec59db6c5d86eb695cce3de1b4bfa119d3bc31b85fd5bc7a73dbbd00fb200f9e6374e99468aba500e9a7ef7d34e7ffee33d7bbaa324fb019aa54fecf03cb3e1ec2fb2f5eef00e26c279f55278c25f4e74835339cc3cbba5936307840770386a32502db5a5425ec6115f8817332ed00c4886239bb0c3c2aa2fdc4a942069cc640191ad1729418a4e8aadf7fd'"
