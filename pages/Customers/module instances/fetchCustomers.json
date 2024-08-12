@@ -6,9 +6,17 @@
   "type": "QUERY_MODULE",
   "unpublishedModuleInstance": {
     "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "name"
+      },
+      {
+        "key": "phone"
+      }
+    ],
     "inputs": {
-      "name": "",
-      "phone": ""
+      "name": "{{InputName.text}}",
+      "phone": "{{InputPhone.text}}"
     },
     "moduleInputs": {
       "agjzsdodjg": {
