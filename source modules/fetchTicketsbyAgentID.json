@@ -1,6 +1,6 @@
 {
-  "moduleName": "createNotification",
-  "moduleUUID": "a8aaab48-0c4e-4742-9a2e-07fec2393233",
+  "moduleName": "fetchTicketsbyAgentID",
+  "moduleUUID": "1a5de274-e2df-43be-9d5f-2c246b42c290",
   "packageName": "Support Service",
   "packageUUID": "cc76a457-faa9-407c-ab3e-12ba84262a14",
   "version": "0.0.19"

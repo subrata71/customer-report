@@ -3,9 +3,9 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 15,
+  "bottomRow": 16,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultText": "-1",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
