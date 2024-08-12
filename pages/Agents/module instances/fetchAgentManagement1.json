@@ -1,0 +1,41 @@
+{
+  "gitSyncId": "66ba1115add2240ff8ab95a9_47bdc137-2716-405c-8957-568d6d02d984",
+  "id": "Agents_fetchAgentManagement1",
+  "moduleUUID": "f521af81-b3ba-4d27-9905-112ab3cd3e7c",
+  "packageUUID": "cc76a457-faa9-407c-ab3e-12ba84262a14",
+  "type": "JS_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "fetchAgentDetails": "[\"{{searchName.text}}\",\"{{searchSpecialisation.text}}\",\"{{Table1.pageSize}}\",\"{{Table1.pageOffset}}\",\"{{searchId.text}}\"]",
+      "fetchAgentTickets": "[\"{{Table1.triggeredRow.id}}\"]",
+      "fetchAllAgentsCount": "[]"
+    },
+    "moduleInputs": {
+      "rawjyyfwdi": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "rawjyyfwdi",
+        "label": "fetchAllAgentsCount",
+        "propertyName": "inputs.fetchAllAgentsCount"
+      },
+      "utnhkjedwm": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "utnhkjedwm",
+        "label": "fetchAgentDetails",
+        "propertyName": "inputs.fetchAgentDetails"
+      },
+      "xpqyzswakz": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[\"{{-1}}\"]",
+        "id": "xpqyzswakz",
+        "label": "fetchAgentTickets",
+        "propertyName": "inputs.fetchAgentTickets"
+      }
+    },
+    "name": "fetchAgentManagement1",
+    "pageId": "Agents",
+    "version": "0.0.25"
+  }
+}

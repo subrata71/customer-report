@@ -1,0 +1,25 @@
+{
+  "gitSyncId": "66ba026badd2240ff8ab8dad_b6e0a032-214f-4eaf-8211-3f22894bbb89",
+  "id": "Notifications_createNotification1",
+  "moduleUUID": "a8aaab48-0c4e-4742-9a2e-07fec2393233",
+  "packageUUID": "cc76a457-faa9-407c-ab3e-12ba84262a14",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "data": "{{NewNotificationJSONForm.formData}}"
+    },
+    "moduleInputs": {
+      "yvejuuotqg": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "yvejuuotqg",
+        "label": "data",
+        "propertyName": "inputs.data"
+      }
+    },
+    "name": "createNotification1",
+    "pageId": "Notifications",
+    "version": "0.0.25"
+  }
+}

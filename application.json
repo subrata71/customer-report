@@ -20,6 +20,18 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Customers",
+      "isDefault": false
+    },
+    {
+      "id": "Notifications",
+      "isDefault": false
+    },
+    {
+      "id": "Agents",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {

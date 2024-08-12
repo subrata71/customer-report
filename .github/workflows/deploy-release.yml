@@ -1,0 +1,13 @@
+name: customer-report-release-cd  # Workflow name
+
+on:
+  push:
+    branches:
+      - release  # Trigger on push to release branch
+
+jobs:
+  deploy-appsmith:
+    runs-on: ubuntu-latest  # Run on Ubuntu
+
+    steps:
+      - run: "curl --location --fail-early --request POST https://ee-4861.dp.appsmith.com/api/v1/git/deploy/app/66b9c735c93b9d1752e25086?branchName=release --header 'Authorization: Bearer ${{ secrets.APPSMITH_CD_KEY }}'"
