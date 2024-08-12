@@ -22,9 +22,17 @@
       "isDefault": true
     },
     {
+      "id": "Customers",
+      "isDefault": false
+    },
+    {
+      "id": "Notifications",
+      "isDefault": false
+    },
+    {
       "id": "Ticket Management",
       "isDefault": false
-    }
+    },
   ],
   "unpublishedApplicationDetail": {
     "appPositioning": {
