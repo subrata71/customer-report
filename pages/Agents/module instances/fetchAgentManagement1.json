@@ -52,7 +52,7 @@
       },
       "xpqyzswakz": {
         "controlType": "INPUT_TEXT",
-        "defaultValue": "[]",
+        "defaultValue": "[\"{{2}}\"]",
         "id": "xpqyzswakz",
         "label": "fetchAgentTickets",
         "propertyName": "inputs.fetchAgentTickets"
