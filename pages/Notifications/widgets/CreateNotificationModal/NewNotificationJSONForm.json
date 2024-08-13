@@ -1,11 +1,11 @@
 {
   "animateLoading": true,
-  "autoGenerateForm": true,
+  "autoGenerateForm": false,
   "backgroundColor": "#fff",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "0",
-  "bottomRow": 65,
+  "bottomRow": 50,
   "boxShadow": "none",
   "childStylesheet": {
     "ARRAY": {
@@ -102,9 +102,6 @@
       "key": "resetButtonStyles.borderRadius"
     },
     {
-      "key": "sourceData"
-    },
-    {
       "key": "schema.__root_schema__.defaultValue"
     },
     {
@@ -151,11 +148,25 @@
     },
     {
       "key": "schema.__root_schema__.children.message.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.recipient.options"
+    },
+    {
+      "key": "schema.__root_schema__.children.date.defaultValue"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicPropertyPathList": [],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "schema.__root_schema__.children.date.defaultValue"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
   "fieldLimitExceeded": false,
   "fixedFooter": true,
   "flexVerticalAlignment": "start",
@@ -171,6 +182,7 @@
   "mobileRightColumn": 30,
   "mobileTopRow": 6,
   "needsErrorInfo": false,
+  "onSubmit": "{{createNotification1.run().then(() => {\n  closeModal('');\n  showAlert('Notification Sent', 'success');\n}).catch(() => {\n  showAlert('Failed creating notification', 'info');\n});}}",
   "originalBottomRow": 65,
   "originalTopRow": 5,
   "parentColumnSpace": 6.9375,
@@ -203,14 +215,14 @@
           "closeOnSelection": false,
           "convertToISO": false,
           "dataType": "string",
-          "dateFormat": "YYYY-MM-DD HH:mm",
-          "defaultValue": "",
+          "dateFormat": "LL",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (Date()))(NewNotificationJSONForm.sourceData, NewNotificationJSONForm.formData, NewNotificationJSONForm.fieldState)}}",
           "fieldType": "Datepicker",
           "identifier": "date",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Date",
           "labelTextSize": "0.875rem",
           "maxDate": "2121-12-31T18:29:00.000Z",
@@ -273,18 +285,19 @@
           "children": {},
           "dataType": "string",
           "defaultValue": "",
-          "fieldType": "Email Input",
-          "iconAlign": "left",
+          "fieldType": "Select",
           "identifier": "recipient",
           "isCustomField": false,
           "isDisabled": false,
+          "isFilterable": false,
           "isRequired": false,
-          "isSpellCheck": false,
           "isVisible": true,
           "label": "Recipient",
           "labelTextSize": "0.875rem",
+          "options": "{{NotificationsModule.getAllCustomersAndAgents.data.all.map((i) => ({ label: i.name + \" -   \" + i.email , value: i.email}))}}",
           "originalIdentifier": "recipient",
           "position": 2,
+          "serverSideFiltering": false,
           "sourceData": "john.doe@example.com"
         },
         "status": {
@@ -302,7 +315,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Status",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "status",
@@ -317,18 +330,19 @@
           "children": {},
           "dataType": "string",
           "defaultValue": "",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
+          "fieldType": "Select",
           "identifier": "type",
           "isCustomField": false,
           "isDisabled": false,
+          "isFilterable": false,
           "isRequired": false,
-          "isSpellCheck": false,
           "isVisible": true,
           "label": "Type",
           "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"SMS\",\n    \"value\": \"sms\"\n  },\n  {\n    \"label\": \"Email\",\n    \"value\": \"email\"\n  },\n  {\n    \"label\": \"Whatsapp\",\n    \"value\": \"whatsapp\"\n  }\n]",
           "originalIdentifier": "type",
           "position": 3,
+          "serverSideFiltering": false,
           "sourceData": "email"
         }
       },
@@ -364,7 +378,7 @@
   },
   "scrollContents": true,
   "showReset": true,
-  "sourceData": "{{fetchNotificationsSSR1.fetch.data.data[0]}}",
+  "sourceData": "",
   "submitButtonLabel": "Submit",
   "submitButtonStyles": {
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",

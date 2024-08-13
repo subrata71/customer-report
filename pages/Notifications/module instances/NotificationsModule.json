@@ -1,0 +1,49 @@
+{
+  "gitSyncId": "66bae35fadd2240ff8abada3_c8cd5575-e1bd-4379-addd-562d9294fc39",
+  "id": "Notifications_NotificationsModule",
+  "moduleUUID": "69a711a1-b7e9-4044-94b6-c691acd4e202",
+  "packageUUID": "cc76a457-faa9-407c-ab3e-12ba84262a14",
+  "type": "JS_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "fetchAllNotifications"
+      },
+      {
+        "key": "fetchByRecepientEmail"
+      }
+    ],
+    "inputs": {
+      "fetchAllNotifications": "[\"{{Notifications_List.pageNo}}\",\"{{Notifications_List.pageSize}}\"]",
+      "fetchByRecepientEmail": "[\"{{Recepient_Select.selectedOptionValue}}\",\"\"]",
+      "getAllCustomersAndAgents": "[]"
+    },
+    "moduleInputs": {
+      "emfrstlqbq": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[\"john.doe@example.com\"]",
+        "id": "emfrstlqbq",
+        "label": "fetchByRecepientEmail",
+        "propertyName": "inputs.fetchByRecepientEmail"
+      },
+      "nqlmwxogep": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "nqlmwxogep",
+        "label": "getAllCustomersAndAgents",
+        "propertyName": "inputs.getAllCustomersAndAgents"
+      },
+      "zuyftimcja": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[\"{{1}}\",\"{{10}}\"]",
+        "id": "zuyftimcja",
+        "label": "fetchAllNotifications",
+        "propertyName": "inputs.fetchAllNotifications"
+      }
+    },
+    "name": "NotificationsModule",
+    "pageId": "Notifications",
+    "version": "0.0.50"
+  }
+}

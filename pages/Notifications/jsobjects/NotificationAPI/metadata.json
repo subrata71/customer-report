@@ -1,0 +1,12 @@
+{
+  "gitSyncId": "66bae35fadd2240ff8abada3_b868fe35-90df-462a-b8db-9fe42713a648",
+  "id": "Notifications__$NotificationAPI$_NotificationsAPI",
+  "isPublic": true,
+  "unpublishedCollection": {
+    "contextType": "PAGE",
+    "name": "_$NotificationAPI$_NotificationsAPI",
+    "pageId": "Notifications",
+    "pluginId": "js-plugin",
+    "pluginType": "JS"
+  }
+}

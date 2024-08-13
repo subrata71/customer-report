@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 80,
+  "bottomRow": 59,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -33,15 +33,14 @@
   "columnOrder": [
     "id",
     "date",
+    "message",
     "recipient",
     "type",
-    "status",
-    "message"
+    "status"
   ],
-  "columnUpdatedAt": 1723467376513,
+  "columnUpdatedAt": 1723535010976,
   "columnWidthMap": {
-    "date": 199,
-    "recipient": 280
+    "message": 243
   },
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -66,9 +65,6 @@
       "key": "primaryColumns.id.computedValue"
     },
     {
-      "key": "totalRecordsCount"
-    },
-    {
       "key": "primaryColumns.date.computedValue"
     },
     {
@@ -89,14 +85,7 @@
       "key": "tableData"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onPageChange"
-    },
-    {
-      "key": "onPageSizeChange"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "horizontalAlignment": "LEFT",
@@ -108,19 +97,19 @@
   "isVisibleFilters": false,
   "isVisiblePagination": true,
   "isVisibleSearch": true,
-  "key": "hygrazd2q2",
+  "key": "fcr1spyjbv",
   "label": "Data",
-  "leftColumn": 9,
+  "leftColumn": 26,
   "minWidth": 450,
-  "mobileBottomRow": 56,
-  "mobileLeftColumn": 17,
-  "mobileRightColumn": 51,
-  "mobileTopRow": 28,
+  "mobileBottomRow": 54,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 26,
   "needsErrorInfo": false,
-  "onPageChange": "{{fetchNotificationsSSR1.fetch();}}",
-  "onPageSizeChange": "{{fetchNotificationsSSR1.fetch();}}",
-  "parentColumnSpace": 37.1875,
-  "parentId": "0",
+  "originalBottomRow": 59,
+  "originalTopRow": 13,
+  "parentColumnSpace": 16.671875,
+  "parentId": "h5bl6cbu8h",
   "parentRowSpace": 10,
   "primaryColumns": {
     "date": {
@@ -128,7 +117,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
-      "columnType": "text",
+      "columnType": "date",
       "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
@@ -138,6 +127,7 @@
       "horizontalAlignment": "LEFT",
       "id": "date",
       "index": 1,
+      "inputFormat": "YYYY-MM-DDTHH:mm:ss",
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -149,6 +139,7 @@
       "label": "date",
       "notation": "standard",
       "originalId": "date",
+      "outputFormat": "LL",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -179,7 +170,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "id",
       "notation": "standard",
       "originalId": "id",
@@ -247,7 +238,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "recipient",
       "notation": "standard",
       "originalId": "recipient",
@@ -330,16 +321,15 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 50,
+  "rightColumn": 64,
   "searchKey": "",
-  "serverSidePaginationEnabled": true,
-  "tableData": "{{fetchNotificationsSSR1.fetch.data.data}}",
+  "tableData": "{{NotificationsModule.fetchByRecepientEmail.data}}",
   "textSize": "0.875rem",
-  "topRow": 25,
-  "totalRecordsCount": "{{fetchNotificationsSSR1.fetch.data.count}}",
+  "topRow": 13,
+  "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",
-  "widgetId": "component-c8ok5jhceu",
+  "widgetId": "component-fnk5tmtyrk",
   "widgetName": "Table1"
 }
