@@ -1,0 +1,25 @@
+{
+  "gitSyncId": "66bab1fcadd2240ff8abacef_0f84dc2d-2200-49cd-85cb-5570017b27e4",
+  "id": "Customers_fetchTicketsByCustomerId",
+  "moduleUUID": "2b53ebe7-66f0-4afb-930d-0b4feb132340",
+  "packageUUID": "cc76a457-faa9-407c-ab3e-12ba84262a14",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "customerId": "{{TableCustomers.selectedRow.id}}"
+    },
+    "moduleInputs": {
+      "phnptiafho": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "-1",
+        "id": "phnptiafho",
+        "label": "customerId",
+        "propertyName": "inputs.customerId"
+      }
+    },
+    "name": "fetchTicketsByCustomerId",
+    "pageId": "Customers",
+    "version": "0.0.57"
+  }
+}

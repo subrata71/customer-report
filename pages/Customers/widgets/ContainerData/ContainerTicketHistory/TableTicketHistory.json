@@ -2,9 +2,9 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderColor": "#E0DEDE",
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "0.375rem",
   "borderWidth": "1",
-  "bottomRow": 80,
+  "bottomRow": 50,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -32,17 +32,17 @@
   },
   "columnOrder": [
     "id",
-    "date",
-    "recipient",
-    "type",
+    "title",
+    "description",
     "status",
-    "message"
+    "priority",
+    "due_date",
+    "created_date",
+    "resolved_date"
   ],
-  "columnUpdatedAt": 1723467376513,
-  "columnWidthMap": {
-    "date": 199,
-    "recipient": 280
-  },
+  "columnUpdatedAt": 1723512964273,
+  "columnWidthMap": {},
+  "compactMode": "SHORT",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
   "defaultSelectedRowIndices": [
@@ -54,9 +54,6 @@
       "key": "accentColor"
     },
     {
-      "key": "borderRadius"
-    },
-    {
       "key": "boxShadow"
     },
     {
@@ -66,22 +63,25 @@
       "key": "primaryColumns.id.computedValue"
     },
     {
-      "key": "totalRecordsCount"
+      "key": "primaryColumns.title.computedValue"
     },
     {
-      "key": "primaryColumns.date.computedValue"
-    },
-    {
-      "key": "primaryColumns.recipient.computedValue"
-    },
-    {
-      "key": "primaryColumns.type.computedValue"
+      "key": "primaryColumns.description.computedValue"
     },
     {
       "key": "primaryColumns.status.computedValue"
     },
     {
-      "key": "primaryColumns.message.computedValue"
+      "key": "primaryColumns.priority.computedValue"
+    },
+    {
+      "key": "primaryColumns.due_date.computedValue"
+    },
+    {
+      "key": "primaryColumns.created_date.computedValue"
+    },
+    {
+      "key": "primaryColumns.resolved_date.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -89,14 +89,7 @@
       "key": "tableData"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onPageChange"
-    },
-    {
-      "key": "onPageSizeChange"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "horizontalAlignment": "LEFT",
@@ -104,40 +97,39 @@
   "isLoading": false,
   "isSortable": true,
   "isVisible": true,
-  "isVisibleDownload": true,
+  "isVisibleDownload": false,
   "isVisibleFilters": false,
   "isVisiblePagination": true,
   "isVisibleSearch": true,
-  "key": "hygrazd2q2",
+  "key": "8rux799wic",
   "label": "Data",
-  "leftColumn": 9,
+  "leftColumn": 0,
   "minWidth": 450,
-  "mobileBottomRow": 56,
-  "mobileLeftColumn": 17,
-  "mobileRightColumn": 51,
-  "mobileTopRow": 28,
+  "mobileBottomRow": 75,
+  "mobileLeftColumn": 21,
+  "mobileRightColumn": 55,
+  "mobileTopRow": 47,
   "needsErrorInfo": false,
-  "onPageChange": "{{fetchNotificationsSSR1.fetch();}}",
-  "onPageSizeChange": "{{fetchNotificationsSSR1.fetch();}}",
-  "parentColumnSpace": 37.1875,
-  "parentId": "0",
+  "parentColumnSpace": 9.1650390625,
+  "parentId": "5jdlg0x2li",
   "parentRowSpace": 10,
+  "primaryColumnId": "id",
   "primaryColumns": {
-    "date": {
-      "alias": "date",
+    "created_date": {
+      "alias": "created_date",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date\"]))}}",
+      "computedValue": "{{TableTicketHistory.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created_date\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "date",
-      "index": 1,
+      "id": "created_date",
+      "index": 6,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -146,9 +138,77 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "date",
+      "label": "created_date",
       "notation": "standard",
-      "originalId": "date",
+      "originalId": "created_date",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "description": {
+      "alias": "description",
+      "allowCellWrapping": true,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{TableTicketHistory.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"description\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "description",
+      "index": 2,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "description",
+      "notation": "standard",
+      "originalId": "description",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "due_date": {
+      "alias": "due_date",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "date",
+      "computedValue": "{{TableTicketHistory.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"due_date\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "due_date",
+      "index": 5,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "due_date",
+      "notation": "standard",
+      "originalId": "due_date",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -163,7 +223,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "number",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+      "computedValue": "{{TableTicketHistory.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -173,7 +233,7 @@
       "id": "id",
       "index": 0,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": false,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
@@ -191,21 +251,21 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "message": {
-      "alias": "message",
+    "priority": {
+      "alias": "priority",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"message\"]))}}",
+      "computedValue": "{{TableTicketHistory.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"priority\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "message",
-      "index": 5,
+      "id": "priority",
+      "index": 4,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -214,9 +274,9 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "message",
+      "label": "priority",
       "notation": "standard",
-      "originalId": "message",
+      "originalId": "priority",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -225,21 +285,21 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "recipient": {
-      "alias": "recipient",
+    "resolved_date": {
+      "alias": "resolved_date",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"recipient\"]))}}",
+      "computedValue": "{{TableTicketHistory.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"resolved_date\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "recipient",
-      "index": 2,
+      "id": "resolved_date",
+      "index": 7,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -248,9 +308,9 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "recipient",
+      "label": "resolved_date",
       "notation": "standard",
-      "originalId": "recipient",
+      "originalId": "resolved_date",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -265,7 +325,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
+      "computedValue": "{{TableTicketHistory.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -273,7 +333,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "status",
-      "index": 4,
+      "index": 3,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -293,21 +353,21 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "type": {
-      "alias": "type",
-      "allowCellWrapping": false,
+    "title": {
+      "alias": "title",
+      "allowCellWrapping": true,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"type\"]))}}",
+      "computedValue": "{{TableTicketHistory.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"title\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "type",
-      "index": 3,
+      "id": "title",
+      "index": 1,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -316,9 +376,9 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "type",
+      "label": "title",
       "notation": "standard",
-      "originalId": "type",
+      "originalId": "title",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -330,16 +390,15 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 50,
+  "rightColumn": 64,
   "searchKey": "",
-  "serverSidePaginationEnabled": true,
-  "tableData": "{{fetchNotificationsSSR1.fetchAllNotifications.data.data}}",
+  "tableData": "{{fetchTicketsByCustomerId.data}}",
   "textSize": "0.875rem",
-  "topRow": 25,
-  "totalRecordsCount": "{{fetchNotificationsSSR1.fetch.data.count}}",
+  "topRow": 4,
+  "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",
-  "widgetId": "component-c8ok5jhceu",
-  "widgetName": "Table1"
+  "widgetId": "component-u7tjgwg4fx",
+  "widgetName": "TableTicketHistory"
 }

@@ -1,0 +1,33 @@
+{
+  "gitSyncId": "66ba38e3add2240ff8ab9dbe_f708b877-1598-4838-bf35-cf09253f94c1",
+  "id": "Tickets_fetchTicketsCount1",
+  "moduleUUID": "5d51cee0-8cdb-4fb8-8116-395db0cc7988",
+  "packageUUID": "cc76a457-faa9-407c-ab3e-12ba84262a14",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "agentId": "{{inp_agentId.text}}",
+      "status": "{{sel_status.selectedOptionValue}}"
+    },
+    "moduleInputs": {
+      "gwzgoaftqa": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "gwzgoaftqa",
+        "label": "status",
+        "propertyName": "inputs.status"
+      },
+      "ufqkttqvkd": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "-1",
+        "id": "ufqkttqvkd",
+        "label": "agentId",
+        "propertyName": "inputs.agentId"
+      }
+    },
+    "name": "fetchTicketsCount1",
+    "pageId": "Tickets",
+    "version": "0.0.57"
+  }
+}

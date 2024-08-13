@@ -1,6 +1,6 @@
 {
-  "moduleName": "fetchCustomers",
-  "moduleUUID": "4626955d-87d0-45f7-a385-b7a7d724550e",
+  "moduleName": "fetchCustomerById",
+  "moduleUUID": "73c4152c-8c29-41e5-b37a-2c2f3c0568b3",
   "packageName": "Support Service",
   "packageUUID": "cc76a457-faa9-407c-ab3e-12ba84262a14",
   "version": "0.0.57"

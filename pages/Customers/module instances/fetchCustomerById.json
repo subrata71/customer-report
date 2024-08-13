@@ -1,0 +1,25 @@
+{
+  "gitSyncId": "66bab1fcadd2240ff8abacef_a0903f22-90bf-44c5-bc99-1cb7cfaa10f1",
+  "id": "Customers_fetchCustomerById",
+  "moduleUUID": "73c4152c-8c29-41e5-b37a-2c2f3c0568b3",
+  "packageUUID": "cc76a457-faa9-407c-ab3e-12ba84262a14",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "customerId": "{{TableCustomers.selectedRow.id}}"
+    },
+    "moduleInputs": {
+      "wyxhkxwgrp": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "1",
+        "id": "wyxhkxwgrp",
+        "label": "customerId",
+        "propertyName": "inputs.customerId"
+      }
+    },
+    "name": "fetchCustomerById",
+    "pageId": "Customers",
+    "version": "0.0.57"
+  }
+}

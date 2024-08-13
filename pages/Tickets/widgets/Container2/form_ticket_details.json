@@ -1,0 +1,532 @@
+{
+  "animateLoading": true,
+  "autoGenerateForm": true,
+  "backgroundColor": "#fce4da",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 111,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "childStylesheet": {
+    "ARRAY": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "CHECKBOX": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    },
+    "CURRENCY_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "DATEPICKER": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "EMAIL_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTILINE_TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTISELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "OBJECT": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "PASSWORD_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "PHONE_NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "RADIO_GROUP": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "SELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "SWITCH": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    }
+  },
+  "disabledWhenInvalid": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "submitButtonStyles.buttonColor"
+    },
+    {
+      "key": "submitButtonStyles.borderRadius"
+    },
+    {
+      "key": "resetButtonStyles.buttonColor"
+    },
+    {
+      "key": "resetButtonStyles.borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "schema.__root_schema__.children.id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.title.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.title.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.title.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.description.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.description.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.description.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.status.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.status.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.priority.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.priority.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.due_date.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.due_date.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.due_date.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.created_date.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.created_date.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.created_date.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.resolved_date.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.resolved_date.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.resolved_date.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customer_id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.customer_id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customer_id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.assigned_agent_id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.assigned_agent_id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.assigned_agent_id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.status.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.priority.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.status.options"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "fieldLimitExceeded": false,
+  "fixedFooter": true,
+  "flexVerticalAlignment": "start",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "3fzcbminj6",
+  "leftColumn": 37,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 52,
+  "mobileLeftColumn": 35,
+  "mobileRightColumn": 60,
+  "mobileTopRow": 11,
+  "needsErrorInfo": false,
+  "onSubmit": "{{updateTicketById1.run().then(() => {\n  fetchTickets1.run();\n  fetchTicketsCount1.run();\n  showAlert('Ticket updated', 'success');\n}).catch(() => {\n  showAlert('Failed to update ticket details', 'error');\n});}}",
+  "originalBottomRow": 111,
+  "originalTopRow": 19,
+  "parentColumnSpace": 20.1875,
+  "parentId": "ef80qd7waf",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetButtonLabel": "Reset",
+  "resetButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "SECONDARY"
+  },
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "schema": {
+    "__root_schema__": {
+      "accessor": "__root_schema__",
+      "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+      "cellBoxShadow": "none",
+      "children": {
+        "assigned_agent_id": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "accessor": "assigned_agent_id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.assigned_agent_id))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "assigned_agent_id",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Assigned Agent Id",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "assigned_agent_id",
+          "position": 9,
+          "sourceData": 7
+        },
+        "created_date": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "accessor": "created_date",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.created_date))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "created_date",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Created Date",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "created_date",
+          "position": 6,
+          "sourceData": "2024-08-12T10:22:42Z"
+        },
+        "customer_id": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "accessor": "customer_id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.customer_id))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customer_id",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Customer Id",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customer_id",
+          "position": 8,
+          "sourceData": 7
+        },
+        "description": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "accessor": "description",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.description))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "description",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Description",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "description",
+          "position": 2,
+          "sourceData": "Customer is unable to log in."
+        },
+        "due_date": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "accessor": "due_date",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "YYYY-MM-DD",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.due_date, \"YYYY-MM-DD\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "due_date",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Due Date",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "due_date",
+          "position": 5,
+          "shortcuts": false,
+          "sourceData": "2024-08-02",
+          "timePrecision": "minute"
+        },
+        "id": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "accessor": "id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.id))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "id",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Id",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "id",
+          "position": 0,
+          "sourceData": 22
+        },
+        "priority": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "accessor": "priority",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.priority))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "priority",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Priority",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "priority",
+          "position": 4,
+          "sourceData": "High"
+        },
+        "resolved_date": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "accessor": "resolved_date",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "null",
+          "dateFormat": "YYYY-MM-DDTHH:mm:ss",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.resolved_date))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "resolved_date",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Resolved Date",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "resolved_date",
+          "position": 7,
+          "shortcuts": false,
+          "timePrecision": "minute"
+        },
+        "status": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "accessor": "status",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.status))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "fieldType": "Select",
+          "identifier": "status",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Status",
+          "labelTextSize": "0.875rem",
+          "options": "{{TicketsModule1.status.map(status => ({\"label\": status.name, \"value\": status.code}))}}",
+          "originalIdentifier": "status",
+          "position": 3,
+          "serverSideFiltering": false,
+          "sourceData": "Open"
+        },
+        "title": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "accessor": "title",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.title))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "title",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Title",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "title",
+          "position": 1,
+          "sourceData": "Issue with login"
+        }
+      },
+      "dataType": "object",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
+      "fieldType": "Object",
+      "identifier": "__root_schema__",
+      "isCustomField": false,
+      "isDisabled": false,
+      "isRequired": false,
+      "isVisible": true,
+      "label": "",
+      "labelTextSize": "0.875rem",
+      "originalIdentifier": "__root_schema__",
+      "position": -1,
+      "sourceData": {
+        "assigned_agent_id": 1,
+        "created_date": "2024-08-12T10:22:42Z",
+        "customer_id": 1,
+        "description": "Customer is unable to log in.",
+        "due_date": "2024-08-02",
+        "id": 13,
+        "priority": "High",
+        "status": "Open",
+        "title": "Issue with login"
+      }
+    }
+  },
+  "scrollContents": true,
+  "showReset": true,
+  "sourceData": "{{Table1.selectedRow}}",
+  "submitButtonLabel": "Submit",
+  "submitButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "PRIMARY"
+  },
+  "title": "Ticket Details",
+  "topRow": 19,
+  "type": "JSON_FORM_WIDGET",
+  "useSourceData": false,
+  "version": 1,
+  "widgetId": "component-5djnt7rluo",
+  "widgetName": "form_ticket_details"
+}

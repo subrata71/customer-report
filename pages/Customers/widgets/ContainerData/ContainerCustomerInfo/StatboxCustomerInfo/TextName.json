@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 7,
+  "bottomRow": 4,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -20,33 +23,31 @@
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "iv6a4dtowc",
-  "leftColumn": 1,
+  "key": "ksp1yvxfd5",
+  "leftColumn": 10,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 6,
+  "mobileBottomRow": 8,
   "mobileLeftColumn": 1,
-  "mobileRightColumn": 17,
-  "mobileTopRow": 2,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "originalBottomRow": 6,
-  "originalTopRow": 2,
+  "originalBottomRow": 5,
+  "originalTopRow": 1,
   "overflow": "NONE",
-  "parentColumnSpace": 20.53125,
-  "parentId": "0",
-  "parentRowSpace": 10,
+  "parentId": "rbiv8xluu8",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 17,
+  "rightColumn": 61,
   "shouldTruncate": false,
-  "text": "test-cd-master-2\nfixed-references-with-branch",
+  "text": "{{TableCustomers.selectedRow.name}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 2,
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "component-nu2mkqsyzq",
-  "widgetName": "TextTestCdMaster"
+  "widgetId": "5vww9rvxfc",
+  "widgetName": "TextName"
 }

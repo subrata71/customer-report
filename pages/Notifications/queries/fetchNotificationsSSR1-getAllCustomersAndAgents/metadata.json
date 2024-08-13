@@ -1,14 +1,13 @@
 {
-  "gitSyncId": "66ba026badd2240ff8ab8dad_05043d45-d590-4cb6-8eb3-748c3d6ae8e0",
-  "id": "Notifications__$fetchNotificationsSSR1$_fetchNotificationsSSR.fetch",
+  "gitSyncId": "66ba40a6add2240ff8ab9f08_4f381346-553d-4e46-970f-7db8a3e3c803",
+  "id": "Notifications__$fetchNotificationsSSR1$_NotificationsAPI.getAllCustomersAndAgents",
   "isPublic": true,
   "moduleInstanceId": "Notifications_fetchNotificationsSSR1",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "rootModuleInstanceId": "Notifications_fetchNotificationsSSR1",
   "unpublishedAction": {
-    "clientSideExecution": true,
-    "collectionId": "Notifications__$fetchNotificationsSSR1$_fetchNotificationsSSR",
+    "collectionId": "Notifications__$fetchNotificationsSSR1$_NotificationsAPI",
     "confirmBeforeExecute": false,
     "contextType": "PAGE",
     "datasource": {
@@ -16,9 +15,9 @@
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin"
     },
-    "executeOnLoad": true,
-    "fullyQualifiedName": "_$fetchNotificationsSSR1$_fetchNotificationsSSR.fetch",
-    "name": "fetch",
+    "executeOnLoad": false,
+    "fullyQualifiedName": "_$fetchNotificationsSSR1$_NotificationsAPI.getAllCustomersAndAgents",
+    "name": "getAllCustomersAndAgents",
     "pageId": "Notifications",
     "userSetOnLoad": false
   }

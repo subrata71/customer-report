@@ -7,11 +7,35 @@
   "unpublishedModuleInstance": {
     "contextType": "PAGE",
     "inputs": {
+      "allAgentNames": "[]",
+      "allAgents": "[]",
+      "allSpecialisation": "[]",
       "fetchAgentDetails": "[\"{{searchName.text}}\",\"{{searchSpecialisation.text}}\",\"{{Table1.pageSize}}\",\"{{Table1.pageOffset}}\",\"{{searchId.text}}\"]",
       "fetchAgentTickets": "[\"{{Table1.triggeredRow.id}}\"]",
       "fetchAllAgentsCount": "[]"
     },
     "moduleInputs": {
+      "dlokuxysag": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "dlokuxysag",
+        "label": "allAgentNames",
+        "propertyName": "inputs.allAgentNames"
+      },
+      "frkwmarmld": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "frkwmarmld",
+        "label": "allSpecialisation",
+        "propertyName": "inputs.allSpecialisation"
+      },
+      "mhyqndcasl": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "mhyqndcasl",
+        "label": "allAgents",
+        "propertyName": "inputs.allAgents"
+      },
       "rawjyyfwdi": {
         "controlType": "INPUT_TEXT",
         "defaultValue": "[]",
@@ -21,14 +45,14 @@
       },
       "utnhkjedwm": {
         "controlType": "INPUT_TEXT",
-        "defaultValue": "[]",
+        "defaultValue": "[\"{{100}}\",\"{{0}}\"]",
         "id": "utnhkjedwm",
         "label": "fetchAgentDetails",
         "propertyName": "inputs.fetchAgentDetails"
       },
       "xpqyzswakz": {
         "controlType": "INPUT_TEXT",
-        "defaultValue": "[\"{{-1}}\"]",
+        "defaultValue": "[]",
         "id": "xpqyzswakz",
         "label": "fetchAgentTickets",
         "propertyName": "inputs.fetchAgentTickets"
@@ -36,6 +60,6 @@
     },
     "name": "fetchAgentManagement1",
     "pageId": "Agents",
-    "version": "0.0.30"
+    "version": "0.0.57"
   }
 }

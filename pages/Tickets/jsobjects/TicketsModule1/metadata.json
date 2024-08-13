@@ -1,0 +1,14 @@
+{
+  "gitSyncId": "66ba40a6add2240ff8ab9f08_4d5ea396-9b97-4293-8012-705bc9dd1d21",
+  "id": "Tickets__$TicketsModule1$_TicketsModule",
+  "isPublic": true,
+  "moduleInstanceId": "Tickets_TicketsModule1",
+  "rootModuleInstanceId": "Tickets_TicketsModule1",
+  "unpublishedCollection": {
+    "contextType": "PAGE",
+    "name": "_$TicketsModule1$_TicketsModule",
+    "pageId": "Tickets",
+    "pluginId": "js-plugin",
+    "pluginType": "JS"
+  }
+}
