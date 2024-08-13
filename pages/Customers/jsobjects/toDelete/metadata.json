@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "66bb4441390053374d7c446c_6d9fa1d5-05c4-43cf-8a75-581ee3add165",
+  "id": "Customers_toDelete",
+  "unpublishedCollection": {
+    "name": "toDelete",
+    "pageId": "Customers",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}
