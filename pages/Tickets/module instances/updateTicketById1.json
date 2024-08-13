@@ -1,0 +1,118 @@
+{
+  "gitSyncId": "66ba40a6add2240ff8ab9f08_1370ea5f-ec16-488a-85e7-3d04ac46af6f",
+  "id": "Tickets_updateTicketById1",
+  "moduleUUID": "50cff9a8-457d-4349-9d0a-43b47a2fe501",
+  "packageUUID": "cc76a457-faa9-407c-ab3e-12ba84262a14",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "title"
+      },
+      {
+        "key": "description"
+      },
+      {
+        "key": "status"
+      },
+      {
+        "key": "priority"
+      },
+      {
+        "key": "due_date"
+      },
+      {
+        "key": "resolved_date"
+      },
+      {
+        "key": "customer_id"
+      },
+      {
+        "key": "assigned_agent_id"
+      },
+      {
+        "key": "id"
+      }
+    ],
+    "inputs": {
+      "assigned_agent_id": "{{form_ticket_details.formData.assigned_agent_id}}",
+      "customer_id": "{{form_ticket_details.formData.customer_id}}",
+      "description": "{{form_ticket_details.formData.description}}",
+      "due_date": "{{form_ticket_details.formData.due_date}}",
+      "id": "{{form_ticket_details.formData.id}}",
+      "priority": "{{form_ticket_details.formData.priority}}",
+      "resolved_date": "{{form_ticket_details.formData.resolved_date}}",
+      "status": "{{form_ticket_details.formData.status}}",
+      "title": "{{form_ticket_details.formData.title}}"
+    },
+    "moduleInputs": {
+      "bdlewdmqyd": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "2024-08-09",
+        "id": "bdlewdmqyd",
+        "label": "resolved_date",
+        "propertyName": "inputs.resolved_date"
+      },
+      "bmlfpbwcas": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "B",
+        "id": "bmlfpbwcas",
+        "label": "description",
+        "propertyName": "inputs.description"
+      },
+      "bwfuexbmvf": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "2",
+        "id": "bwfuexbmvf",
+        "label": "customer_id",
+        "propertyName": "inputs.customer_id"
+      },
+      "jotgkmycuy": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "In Progress",
+        "id": "jotgkmycuy",
+        "label": "status",
+        "propertyName": "inputs.status"
+      },
+      "kvdwncynbl": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "2",
+        "id": "kvdwncynbl",
+        "label": "assigned_agent_id",
+        "propertyName": "inputs.assigned_agent_id"
+      },
+      "oudywwdziz": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "2024-08-09",
+        "id": "oudywwdziz",
+        "label": "due_date",
+        "propertyName": "inputs.due_date"
+      },
+      "rqukpwtisj": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "High",
+        "id": "rqukpwtisj",
+        "label": "priority",
+        "propertyName": "inputs.priority"
+      },
+      "rtjvocznig": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "0",
+        "id": "rtjvocznig",
+        "label": "id",
+        "propertyName": "inputs.id"
+      },
+      "zvfmdzwwco": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "A",
+        "id": "zvfmdzwwco",
+        "label": "title",
+        "propertyName": "inputs.title"
+      }
+    },
+    "name": "updateTicketById1",
+    "pageId": "Tickets",
+    "version": "0.0.35"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "gitSyncId": "66ba40a6add2240ff8ab9f08_ad8afbf2-a112-4e7c-b89e-b2f0a0ddb89c",
+  "id": "Tickets_TicketsModule1",
+  "moduleUUID": "e3268885-50c2-4aed-a41b-477510bf5fe8",
+  "packageUUID": "cc76a457-faa9-407c-ab3e-12ba84262a14",
+  "type": "JS_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "getFormattedStatuses": "[]"
+    },
+    "moduleInputs": {
+      "yckqigyjak": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "yckqigyjak",
+        "label": "getFormattedStatuses",
+        "propertyName": "inputs.foo"
+      }
+    },
+    "name": "TicketsModule1",
+    "pageId": "Tickets",
+    "version": "0.0.35"
+  }
+}

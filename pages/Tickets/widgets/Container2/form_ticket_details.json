@@ -1,11 +1,11 @@
 {
   "animateLoading": true,
   "autoGenerateForm": true,
-  "backgroundColor": "#fff",
+  "backgroundColor": "#fce4da",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 91,
+  "bottomRow": 111,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -135,16 +135,10 @@
       "key": "schema.__root_schema__.children.description.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.status.defaultValue"
-    },
-    {
       "key": "schema.__root_schema__.children.status.accentColor"
     },
     {
       "key": "schema.__root_schema__.children.status.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.priority.defaultValue"
     },
     {
       "key": "schema.__root_schema__.children.priority.accentColor"
@@ -205,18 +199,28 @@
     },
     {
       "key": "schema.__root_schema__.cellBorderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.status.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.priority.defaultValue"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicPropertyPathList": [],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
   "fieldLimitExceeded": false,
   "fixedFooter": true,
   "flexVerticalAlignment": "start",
   "isLoading": false,
   "isVisible": true,
   "key": "3fzcbminj6",
-  "leftColumn": 36,
+  "leftColumn": 37,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -225,8 +229,9 @@
   "mobileRightColumn": 60,
   "mobileTopRow": 11,
   "needsErrorInfo": false,
-  "originalBottomRow": 91,
-  "originalTopRow": 6,
+  "onSubmit": "{{updateTicketById1.run().then(() => {\n  fetchTickets1.run();\n  fetchTicketsCount1.run();\n  showAlert('Ticket updated', 'success');\n}).catch(() => {\n  showAlert('Failed to update ticket details', 'error');\n});}}",
+  "originalBottomRow": 104,
+  "originalTopRow": 19,
   "parentColumnSpace": 20.1875,
   "parentId": "ef80qd7waf",
   "parentRowSpace": 10,
@@ -239,7 +244,7 @@
     "buttonVariant": "SECONDARY"
   },
   "responsiveBehavior": "fill",
-  "rightColumn": 61,
+  "rightColumn": 63,
   "schema": {
     "__root_schema__": {
       "accessor": "__root_schema__",
@@ -312,7 +317,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "customer_id",
           "position": 8,
-          "sourceData": 2
+          "sourceData": 6
         },
         "description": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
@@ -378,12 +383,12 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": false,
+          "isVisible": true,
           "label": "Id",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "id",
           "position": 0,
-          "sourceData": 14
+          "sourceData": 18
         },
         "priority": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
@@ -413,20 +418,25 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
           "boxShadow": "none",
           "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
           "dataType": "null",
+          "dateFormat": "YYYY-MM-DDTHH:mm:ss",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.resolved_date))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
+          "fieldType": "Datepicker",
           "identifier": "resolved_date",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
-          "isSpellCheck": false,
           "isVisible": true,
           "label": "Resolved Date",
           "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
           "originalIdentifier": "resolved_date",
-          "position": 7
+          "position": 7,
+          "shortcuts": false,
+          "timePrecision": "minute"
         },
         "status": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
@@ -509,7 +519,7 @@
     "buttonVariant": "PRIMARY"
   },
   "title": "Ticket Details",
-  "topRow": 6,
+  "topRow": 19,
   "type": "JSON_FORM_WIDGET",
   "useSourceData": false,
   "version": 1,

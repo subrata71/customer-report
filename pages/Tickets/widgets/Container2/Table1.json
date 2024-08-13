@@ -4,9 +4,10 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 51,
+  "bottomRow": 64,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
+  "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
   "childStylesheet": {
     "button": {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -42,7 +43,7 @@
     "customer_id",
     "assigned_agent_id"
   ],
-  "columnUpdatedAt": 1723480355643,
+  "columnUpdatedAt": 1723529601436,
   "columnWidthMap": {},
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -95,12 +96,48 @@
     },
     {
       "key": "totalRecordsCount"
+    },
+    {
+      "key": "cellBackground"
+    },
+    {
+      "key": "primaryColumns.resolved_date.cellBackground"
+    },
+    {
+      "key": "primaryColumns.due_date.cellBackground"
+    },
+    {
+      "key": "primaryColumns.description.cellBackground"
+    },
+    {
+      "key": "primaryColumns.created_date.cellBackground"
+    },
+    {
+      "key": "primaryColumns.id.cellBackground"
+    },
+    {
+      "key": "primaryColumns.assigned_agent_id.cellBackground"
+    },
+    {
+      "key": "primaryColumns.customer_id.cellBackground"
+    },
+    {
+      "key": "primaryColumns.priority.cellBackground"
+    },
+    {
+      "key": "primaryColumns.title.cellBackground"
+    },
+    {
+      "key": "primaryColumns.status.cellBackground"
     }
   ],
   "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onPageChange"
+    },
+    {
+      "key": "primaryColumns.priority.onSubmit"
     }
   ],
   "enableClientSideSearch": false,
@@ -124,8 +161,8 @@
   "mobileTopRow": 1,
   "needsErrorInfo": false,
   "onPageChange": "{{fetchTickets1.run();\nfetchTicketsCount1.run()}}",
-  "originalBottomRow": 68,
-  "originalTopRow": 29,
+  "originalBottomRow": 64,
+  "originalTopRow": 19,
   "parentId": "ef80qd7waf",
   "parentRowSpace": 10,
   "primaryColumns": {
@@ -133,7 +170,7 @@
       "alias": "assigned_agent_id",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "number",
       "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"assigned_agent_id\"]))}}",
       "currencyCode": "USD",
@@ -167,7 +204,7 @@
       "alias": "created_date",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created_date\"]))}}",
       "currencyCode": "USD",
@@ -201,7 +238,7 @@
       "alias": "customer_id",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "number",
       "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"customer_id\"]))}}",
       "currencyCode": "USD",
@@ -235,7 +272,7 @@
       "alias": "description",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"description\"]))}}",
       "currencyCode": "USD",
@@ -269,7 +306,7 @@
       "alias": "due_date",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "date",
       "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"due_date\"]))}}",
       "currencyCode": "USD",
@@ -303,7 +340,7 @@
       "alias": "id",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "number",
       "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
       "currencyCode": "USD",
@@ -337,7 +374,7 @@
       "alias": "priority",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"priority\"]))}}",
       "currencyCode": "USD",
@@ -358,6 +395,7 @@
       "isVisible": true,
       "label": "priority",
       "notation": "standard",
+      "onSubmit": "{{updateTicketPriority.run().then(() => {\n  fetchTickets1.run();\n});}}",
       "originalId": "priority",
       "sticky": "",
       "textColor": "",
@@ -371,7 +409,7 @@
       "alias": "resolved_date",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"resolved_date\"]))}}",
       "currencyCode": "USD",
@@ -405,7 +443,7 @@
       "alias": "status",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
       "currencyCode": "USD",
@@ -439,7 +477,7 @@
       "alias": "title",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"title\"]))}}",
       "currencyCode": "USD",
@@ -472,12 +510,13 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 34,
+  "rightColumn": 36,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
+  "showInlineEditingOptionDropdown": true,
   "tableData": "{{fetchTickets1.data}}",
   "textSize": "0.875rem",
-  "topRow": 6,
+  "topRow": 19,
   "totalRecordsCount": "{{fetchTicketsCount1.data[0].count}}",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
