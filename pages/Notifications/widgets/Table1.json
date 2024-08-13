@@ -333,7 +333,7 @@
   "rightColumn": 50,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
-  "tableData": "{{fetchNotificationsSSR1.fetch.data.data}}",
+  "tableData": "{{fetchNotificationsSSR1.fetchAllNotifications.data.data}}",
   "textSize": "0.875rem",
   "topRow": 25,
   "totalRecordsCount": "{{fetchNotificationsSSR1.fetch.data.count}}",

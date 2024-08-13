@@ -16,7 +16,7 @@
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin"
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "fullyQualifiedName": "_$fetchNotificationsSSR1$_NotificationsAPI.fetchAllNotifications",
     "name": "fetchAllNotifications",
     "pageId": "Notifications",

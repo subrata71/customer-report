@@ -104,9 +104,6 @@
       "key": "primaryColumns.resolved_date.cellBackground"
     },
     {
-      "key": "primaryColumns.due_date.cellBackground"
-    },
-    {
       "key": "primaryColumns.description.cellBackground"
     },
     {
@@ -129,9 +126,22 @@
     },
     {
       "key": "primaryColumns.status.cellBackground"
+    },
+    {
+      "key": "primaryColumns.due_date.cellBackground"
+    },
+    {
+      "key": "primaryColumns.due_date.textColor"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "primaryColumns.due_date.cellBackground"
+    },
+    {
+      "key": "primaryColumns.due_date.textColor"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onPageChange"
@@ -306,7 +316,7 @@
       "alias": "due_date",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
+      "cellBackground": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.backgroundColor)))}}",
       "columnType": "date",
       "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"due_date\"]))}}",
       "currencyCode": "USD",
@@ -329,7 +339,7 @@
       "notation": "standard",
       "originalId": "due_date",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"due_date\"] <=))}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},

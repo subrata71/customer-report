@@ -230,7 +230,7 @@
   "mobileTopRow": 11,
   "needsErrorInfo": false,
   "onSubmit": "{{updateTicketById1.run().then(() => {\n  fetchTickets1.run();\n  fetchTicketsCount1.run();\n  showAlert('Ticket updated', 'success');\n}).catch(() => {\n  showAlert('Failed to update ticket details', 'error');\n});}}",
-  "originalBottomRow": 104,
+  "originalBottomRow": 111,
   "originalTopRow": 19,
   "parentColumnSpace": 20.1875,
   "parentId": "ef80qd7waf",
@@ -273,7 +273,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "assigned_agent_id",
           "position": 9,
-          "sourceData": 2
+          "sourceData": 7
         },
         "created_date": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
@@ -317,7 +317,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "customer_id",
           "position": 8,
-          "sourceData": 6
+          "sourceData": 7
         },
         "description": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
@@ -388,7 +388,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "id",
           "position": 0,
-          "sourceData": 18
+          "sourceData": 22
         },
         "priority": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
