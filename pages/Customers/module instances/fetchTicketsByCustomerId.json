@@ -6,11 +6,6 @@
   "type": "QUERY_MODULE",
   "unpublishedModuleInstance": {
     "contextType": "PAGE",
-    "dynamicBindingPathList": [
-      {
-        "key": "customerId"
-      }
-    ],
     "inputs": {
       "customerId": "{{TableCustomers.selectedRow.id}}"
     },
