@@ -52,7 +52,7 @@
       },
       "xpqyzswakz": {
         "controlType": "INPUT_TEXT",
-        "defaultValue": "[]",
+        "defaultValue": "[\"{{2}}\"]",
         "id": "xpqyzswakz",
         "label": "fetchAgentTickets",
         "propertyName": "inputs.fetchAgentTickets"
@@ -60,6 +60,6 @@
     },
     "name": "fetchAgentManagement1",
     "pageId": "Agents",
-    "version": "0.0.44"
+    "version": "0.0.45"
   }
 }

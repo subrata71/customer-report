@@ -36,6 +36,6 @@
     },
     "name": "fetchNotificationsSSR1",
     "pageId": "Notifications",
-    "version": "0.0.44"
+    "version": "0.0.45"
   }
 }
