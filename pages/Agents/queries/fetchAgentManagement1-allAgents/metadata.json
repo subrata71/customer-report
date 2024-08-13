@@ -1,11 +1,9 @@
 {
-  "gitSyncId": "66ba1115add2240ff8ab95a9_4bae8fc4-7945-4cc9-8ab7-2273dc4b5982",
+  "gitSyncId": "66ba1115add2240ff8ab95a9_56ad967a-7720-45dd-a0e1-9e215568a133",
   "id": "Agents__$fetchAgentManagement1$_fetchAgentManagement.allAgents",
   "isPublic": true,
-  "moduleInstanceId": "Agents_fetchAgentManagement1",
   "pluginId": "js-plugin",
   "pluginType": "JS",
-  "rootModuleInstanceId": "Agents_fetchAgentManagement1",
   "unpublishedAction": {
     "collectionId": "Agents__$fetchAgentManagement1$_fetchAgentManagement",
     "confirmBeforeExecute": false,
@@ -15,10 +13,10 @@
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin"
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "fullyQualifiedName": "_$fetchAgentManagement1$_fetchAgentManagement.allAgents",
     "name": "allAgents",
     "pageId": "Agents",
-    "userSetOnLoad": true
+    "userSetOnLoad": false
   }
 }

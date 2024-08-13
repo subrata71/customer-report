@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 50,
+  "bottomRow": 51,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -61,9 +61,6 @@
       "key": "boxShadow"
     },
     {
-      "key": "tableData"
-    },
-    {
       "key": "primaryColumns.id.computedValue"
     },
     {
@@ -86,11 +83,17 @@
     },
     {
       "key": "totalRecordsCount"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -124,7 +127,7 @@
   "mobileRightColumn": 35,
   "mobileTopRow": 19,
   "needsErrorInfo": false,
-  "onPageChange": "{{fetchAgentManagement1.fetchAgentDetails();}}",
+  "onPageChange": "{{fetchAgentManagement1Copy.fetchAgentDetails();}}",
   "onRowSelected": "",
   "originalBottomRow": 55,
   "originalTopRow": 16,
@@ -162,7 +165,7 @@
       "label": "Assigned Tickets",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{showModal(Modal1.name).then(() => {\n  fetchAgentManagement1.fetchAgentTickets();\n});}}",
+      "onClick": "{{showModal(Modal1.name).then(() => {\n  fetchAgentManagement1Copy.fetchAgentTickets();\n});}}",
       "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",
@@ -301,10 +304,10 @@
   "rightColumn": 64,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
-  "tableData": "{{fetchAgentManagement1.fetchAgentDetails.data}}",
+  "tableData": "{{fetchAgentManagement1Copy.fetchAgentDetails.data}}",
   "textSize": "0.875rem",
   "topRow": 17,
-  "totalRecordsCount": "{{fetchAgentManagement1.fetchAllAgentsCount.data}}",
+  "totalRecordsCount": "{{fetchAgentManagement1Copy.fetchAllAgentsCount.data}}",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",

@@ -55,7 +55,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 13,
   "serverSideFiltering": false,
-  "sourceData": "{{fetchAgentManagement1.allAgents.data}}",
+  "sourceData": "{{fetchAgentManagement1Copy.allAgents.data}}",
   "topRow": 9,
   "type": "SELECT_WIDGET",
   "version": 1,

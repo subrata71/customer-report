@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "66ba1115add2240ff8ab95a9_47bdc137-2716-405c-8957-568d6d02d984",
-  "id": "Agents_fetchAgentManagement1",
+  "gitSyncId": "66ba1115add2240ff8ab95a9_9fb07657-8fec-4a14-9f66-29d69e0263ec",
+  "id": "Agents_fetchAgentManagement1Copy",
   "moduleUUID": "f521af81-b3ba-4d27-9905-112ab3cd3e7c",
   "packageUUID": "cc76a457-faa9-407c-ab3e-12ba84262a14",
   "type": "JS_MODULE",
@@ -18,8 +18,8 @@
       "allAgentNames": "[]",
       "allAgents": "[]",
       "allSpecialisation": "[]",
-      "fetchAgentDetails": "[\"{{searchName.selectedOptionLabel}}\",\"{{searchSpecialisation.selectedOptionLabel}}\",\"{{Table1.pageSize}}\",\"{{Table1.pageOffset}}\",\"{{searchId.selectedOptionValue}}\"]",
-      "fetchAgentTickets": "[\"{{Table1.triggeredRow.id}}\"]",
+      "fetchAgentDetails": "[\"{{searchName.selectedOptionLabel}}\",\"{{searchSpecialisation.selectedOptionLabel}}\",\"{{Table1.pageSize}}\",\"{{Table1.pageOffset}}\",\"{{searchId.selectedOptionLabel}}\"]",
+      "fetchAgentTickets": "[\"{{Table2.triggeredRow.id}}\"]",
       "fetchAllAgentsCount": "[]"
     },
     "moduleInputs": {
@@ -53,7 +53,7 @@
       },
       "utnhkjedwm": {
         "controlType": "INPUT_TEXT",
-        "defaultValue": "[]",
+        "defaultValue": "[\"{{100}}\",\"{{0}}\"]",
         "id": "utnhkjedwm",
         "label": "fetchAgentDetails",
         "propertyName": "inputs.fetchAgentDetails"
@@ -66,8 +66,8 @@
         "propertyName": "inputs.fetchAgentTickets"
       }
     },
-    "name": "fetchAgentManagement1",
+    "name": "fetchAgentManagement1Copy",
     "pageId": "Agents",
-    "version": "0.0.50"
+    "version": "0.0.59"
   }
 }

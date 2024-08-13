@@ -36,7 +36,7 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 15,
   "needsErrorInfo": false,
-  "onClick": "{{resetWidget(\"searchId\", true);\nresetWidget(\"searchName\", true);\nresetWidget(\"searchSpecialisation\", true).then(() => {\n  fetchAgentManagement1.fetchAgentDetails();\n});}}",
+  "onClick": "{{resetWidget(\"searchId\", true);\nresetWidget(\"searchName\", true);\nresetWidget(\"searchSpecialisation\", true).then(() => {\n  fetchAgentManagement1Copy.fetchAgentDetails();\n});}}",
   "parentColumnSpace": 13,
   "parentId": "0",
   "parentRowSpace": 10,

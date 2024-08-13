@@ -14,11 +14,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -36,7 +32,7 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "onClick": "{{fetchAgentManagement1.fetchAgentDetails();}}",
+  "onClick": "{{fetchAgentManagement1Copy.fetchAgentDetails();}}",
   "parentColumnSpace": 13,
   "parentId": "0",
   "parentRowSpace": 10,

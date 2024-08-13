@@ -1,0 +1,14 @@
+{
+  "gitSyncId": "66ba1115add2240ff8ab95a9_192e0c68-d357-4358-8647-f4a4b6dc07e9",
+  "id": "Agents__$fetchAgentManagement1Copy$_fetchAgentManagement",
+  "isPublic": true,
+  "moduleInstanceId": "Agents_fetchAgentManagement1Copy",
+  "rootModuleInstanceId": "Agents_fetchAgentManagement1Copy",
+  "unpublishedCollection": {
+    "contextType": "PAGE",
+    "name": "_$fetchAgentManagement1Copy$_fetchAgentManagement",
+    "pageId": "Agents",
+    "pluginId": "js-plugin",
+    "pluginType": "JS"
+  }
+}

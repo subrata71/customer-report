@@ -264,7 +264,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "searchKey": "",
-  "tableData": "{{fetchAgentManagement1.fetchAgentTickets.data}}",
+  "tableData": "{{fetchAgentManagement1Copy.fetchAgentTickets.data}}",
   "textSize": "0.875rem",
   "topRow": 6,
   "totalRecordsCount": 0,
