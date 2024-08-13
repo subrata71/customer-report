@@ -171,8 +171,8 @@
   "mobileTopRow": 1,
   "needsErrorInfo": false,
   "onPageChange": "{{fetchTickets1.run();\nfetchTicketsCount1.run()}}",
-  "originalBottomRow": 75,
-  "originalTopRow": 30,
+  "originalBottomRow": 64,
+  "originalTopRow": 19,
   "parentId": "ef80qd7waf",
   "parentRowSpace": 10,
   "primaryColumns": {

@@ -205,6 +205,9 @@
     },
     {
       "key": "schema.__root_schema__.children.priority.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.status.options"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -446,18 +449,19 @@
           "children": {},
           "dataType": "string",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.status))(form_ticket_details.sourceData, form_ticket_details.formData, form_ticket_details.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
+          "fieldType": "Select",
           "identifier": "status",
           "isCustomField": false,
           "isDisabled": false,
+          "isFilterable": false,
           "isRequired": false,
-          "isSpellCheck": false,
           "isVisible": true,
           "label": "Status",
           "labelTextSize": "0.875rem",
+          "options": "{{TicketsModule1.status.map(status => ({\"label\": status.name, \"value\": status.code}))}}",
           "originalIdentifier": "status",
           "position": 3,
+          "serverSideFiltering": false,
           "sourceData": "Open"
         },
         "title": {

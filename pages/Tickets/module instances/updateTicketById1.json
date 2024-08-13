@@ -6,35 +6,6 @@
   "type": "QUERY_MODULE",
   "unpublishedModuleInstance": {
     "contextType": "PAGE",
-    "dynamicBindingPathList": [
-      {
-        "key": "title"
-      },
-      {
-        "key": "description"
-      },
-      {
-        "key": "status"
-      },
-      {
-        "key": "priority"
-      },
-      {
-        "key": "due_date"
-      },
-      {
-        "key": "resolved_date"
-      },
-      {
-        "key": "customer_id"
-      },
-      {
-        "key": "assigned_agent_id"
-      },
-      {
-        "key": "id"
-      }
-    ],
     "inputs": {
       "assigned_agent_id": "{{form_ticket_details.formData.assigned_agent_id}}",
       "customer_id": "{{form_ticket_details.formData.customer_id}}",
@@ -113,6 +84,6 @@
     },
     "name": "updateTicketById1",
     "pageId": "Tickets",
-    "version": "0.0.39"
+    "version": "0.0.44"
   }
 }
