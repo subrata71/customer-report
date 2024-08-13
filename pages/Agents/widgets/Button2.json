@@ -14,7 +14,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -25,7 +29,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "7x7lkbyucs",
-  "leftColumn": 48,
+  "leftColumn": 49,
   "minWidth": 120,
   "mobileBottomRow": 19,
   "mobileLeftColumn": 48,

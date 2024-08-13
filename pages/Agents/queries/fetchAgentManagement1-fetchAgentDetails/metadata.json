@@ -20,6 +20,6 @@
     "fullyQualifiedName": "_$fetchAgentManagement1$_fetchAgentManagement.fetchAgentDetails",
     "name": "fetchAgentDetails",
     "pageId": "Agents",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

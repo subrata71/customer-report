@@ -1,13 +1,12 @@
 {
-  "gitSyncId": "66ba1115add2240ff8ab95a9_087d223a-ffda-4b6c-9b68-da611636ff28",
-  "id": "Agents__$fetchAgentManagement1$_fetchAgentManagement.fetchAgentTickets",
+  "gitSyncId": "66ba1115add2240ff8ab95a9_732de56b-f741-49d4-8e16-d00a2624cbd8",
+  "id": "Agents__$fetchAgentManagement1$_fetchAgentManagement.allAgentNames",
   "isPublic": true,
   "moduleInstanceId": "Agents_fetchAgentManagement1",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "rootModuleInstanceId": "Agents_fetchAgentManagement1",
   "unpublishedAction": {
-    "clientSideExecution": true,
     "collectionId": "Agents__$fetchAgentManagement1$_fetchAgentManagement",
     "confirmBeforeExecute": false,
     "contextType": "PAGE",
@@ -17,8 +16,8 @@
       "pluginId": "js-plugin"
     },
     "executeOnLoad": true,
-    "fullyQualifiedName": "_$fetchAgentManagement1$_fetchAgentManagement.fetchAgentTickets",
-    "name": "fetchAgentTickets",
+    "fullyQualifiedName": "_$fetchAgentManagement1$_fetchAgentManagement.allAgentNames",
+    "name": "allAgentNames",
     "pageId": "Agents",
     "userSetOnLoad": true
   }

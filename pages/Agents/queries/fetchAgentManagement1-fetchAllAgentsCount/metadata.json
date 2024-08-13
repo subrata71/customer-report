@@ -19,6 +19,6 @@
     "fullyQualifiedName": "_$fetchAgentManagement1$_fetchAgentManagement.fetchAllAgentsCount",
     "name": "fetchAllAgentsCount",
     "pageId": "Agents",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }
