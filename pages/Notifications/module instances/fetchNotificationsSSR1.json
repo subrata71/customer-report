@@ -7,19 +7,35 @@
   "unpublishedModuleInstance": {
     "contextType": "PAGE",
     "inputs": {
-      "fetch": "[\"{{Table1.pageNo}}\",\"{{Table1.pageSize}}\"]"
+      "fetchAllNotifications": "[\"{{Table1.pageNo}}\",\"{{Table1.pageSize}}\"]",
+      "fetchByRecepientEmail": "[\"john.doe@example.com\"]",
+      "getAllCustomersAndAgents": "[]"
     },
     "moduleInputs": {
+      "emfrstlqbq": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[\"john.doe@example.com\"]",
+        "id": "emfrstlqbq",
+        "label": "fetchByRecepientEmail",
+        "propertyName": "inputs.fetchByRecepientEmail"
+      },
+      "nqlmwxogep": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "nqlmwxogep",
+        "label": "getAllCustomersAndAgents",
+        "propertyName": "inputs.getAllCustomersAndAgents"
+      },
       "zuyftimcja": {
         "controlType": "INPUT_TEXT",
         "defaultValue": "[\"{{1}}\",\"{{10}}\"]",
         "id": "zuyftimcja",
-        "label": "fetch",
-        "propertyName": "inputs.fetch"
+        "label": "fetchAllNotifications",
+        "propertyName": "inputs.fetchAllNotifications"
       }
     },
     "name": "fetchNotificationsSSR1",
     "pageId": "Notifications",
-    "version": "0.0.31"
+    "version": "0.0.39"
   }
 }

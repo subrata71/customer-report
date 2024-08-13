@@ -28,6 +28,6 @@
     },
     "name": "fetchCustomers",
     "pageId": "Customers",
-    "version": "0.0.31"
+    "version": "0.0.39"
   }
 }
