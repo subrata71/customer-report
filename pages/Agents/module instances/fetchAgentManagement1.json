@@ -45,7 +45,7 @@
       },
       "utnhkjedwm": {
         "controlType": "INPUT_TEXT",
-        "defaultValue": "[]",
+        "defaultValue": "[\"{{100}}\",\"{{0}}\"]",
         "id": "utnhkjedwm",
         "label": "fetchAgentDetails",
         "propertyName": "inputs.fetchAgentDetails"
@@ -60,6 +60,6 @@
     },
     "name": "fetchAgentManagement1",
     "pageId": "Agents",
-    "version": "0.0.44"
+    "version": "0.0.53"
   }
 }

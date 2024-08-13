@@ -18,12 +18,8 @@
   "icon": "shirt",
   "pages": [
     {
-      "id": "Page1",
-      "isDefault": true
-    },
-    {
       "id": "Customers",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Notifications",
