@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "buttonColor": "#71717a",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconName": "inbox",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "23vfh024hx",
+  "leftColumn": 10,
+  "minWidth": 50,
+  "mobileBottomRow": 17,
+  "mobileLeftColumn": 10,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 13,
+  "needsErrorInfo": false,
+  "originalBottomRow": 9,
+  "originalTopRow": 5,
+  "parentColumnSpace": 8.8525390625,
+  "parentId": "rbiv8xluu8",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 14,
+  "topRow": 4,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "apamof7y8i",
+  "widgetName": "IconEmail"
+}

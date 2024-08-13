@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 65,
+  "bottomRow": 86,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -36,7 +36,7 @@
     "email",
     "phone"
   ],
-  "columnUpdatedAt": 1723467806219,
+  "columnUpdatedAt": 1723513003495,
   "columnWidthMap": {},
   "compactMode": "DEFAULT",
   "defaultPageSize": 0,
@@ -76,7 +76,11 @@
       "key": "tableData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onRowSelected"
+    }
+  ],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "fontStyle": "",
@@ -98,7 +102,8 @@
   "mobileRightColumn": 34,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 65,
+  "onRowSelected": "{{fetchTicketsByCustomerId.run()}}",
+  "originalBottomRow": 86,
   "originalTopRow": 18,
   "parentColumnSpace": 20.21875,
   "parentId": "pmm9b177ab",
@@ -161,7 +166,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "id",
       "notation": "standard",
       "originalId": "id",
@@ -244,7 +249,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 34,
   "searchKey": "",
   "tableData": "{{fetchCustomers.data}}",
   "textSize": "0.875rem",
