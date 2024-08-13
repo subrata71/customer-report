@@ -15,11 +15,11 @@
         "defaultValue": "[]",
         "id": "yckqigyjak",
         "label": "getFormattedStatuses",
-        "propertyName": "inputs.foo"
+        "propertyName": "inputs.getFormattedStatuses"
       }
     },
     "name": "TicketsModule1",
     "pageId": "Tickets",
-    "version": "0.0.38"
+    "version": "0.0.39"
   }
 }
