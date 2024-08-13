@@ -7,9 +7,25 @@
   "unpublishedModuleInstance": {
     "contextType": "PAGE",
     "inputs": {
+      "fetchAgentsForSelectWidget": "[]",
+      "fetchTicketsByParams": "[\"{{-1}}\",\"{{10}}\",\"{{0}}\"]",
       "getFormattedStatuses": "[]"
     },
     "moduleInputs": {
+      "aifedaecdy": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "aifedaecdy",
+        "label": "fetchAgentsForSelectWidget",
+        "propertyName": "inputs.fetchAgentsForSelectWidget"
+      },
+      "ueqwcvnzvn": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[\"{{-1}}\",\"{{10}}\",\"{{0}}\"]",
+        "id": "ueqwcvnzvn",
+        "label": "fetchTicketsByParams",
+        "propertyName": "inputs.fetchTicketsByParams"
+      },
       "yckqigyjak": {
         "controlType": "INPUT_TEXT",
         "defaultValue": "[]",
@@ -20,6 +36,6 @@
     },
     "name": "TicketsModule1",
     "pageId": "Tickets",
-    "version": "0.0.45"
+    "version": "0.0.57"
   }
 }
